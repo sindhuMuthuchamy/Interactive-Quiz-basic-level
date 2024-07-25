@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    /* flex-basis: 50%; */
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: solid rgb(168, 165, 165) 1px;
+}
+.sub_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.answer{
+    margin-left: 20px;
+}
+label{
+    padding: 5px;
+}
+.submit{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+.score-card{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 400px;
+    display: none;
+    width: 500px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: solid rgb(168, 165, 165) 1px;
+}
+#appreciation{
+    font-size: medium;
+    color: rgb(209, 105, 105);
+}
+h4{
+    color: green;
+}
