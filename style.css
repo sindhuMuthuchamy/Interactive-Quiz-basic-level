@@ -90,4 +90,10 @@ h4{
     #appreciation{
         font-size: 12px;
     }
+    .answer {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
